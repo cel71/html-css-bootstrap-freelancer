@@ -1,0 +1,74 @@
+.container-fluid{
+    color: orange;
+}
+
+.nav-bar{
+    /* altezza indicativa */
+    height: 100px;
+    background-color: rgb(44, 62, 80);
+    text-align: center;
+    line-height: 100px;
+}
+
+.container-primo{
+    background-color: rgb(26, 188, 156);
+    width: 100%;
+}
+
+.container-secondo{
+    border: 1px solid black;
+    width: 100%;
+}
+
+.container-terzo{
+    background-color: rgb(26, 188, 156);
+    width: 100%;
+}
+
+.container-quarto{
+    border: 1px solid black;
+    width: 100%;
+}
+
+.container-quinto{
+    background-color:rgb(58, 84, 109);
+    width: 100%;
+}
+
+.container-sesto{
+    background-color: rgb(44, 62, 80);
+    width: 100%;
+}
+
+[class*=col]{
+    border: 1px solid black;
+    text-align: center;
+    /* altezza indicativa */
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* riquadro prova */
+
+.immagine{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+}
+
+.icone-siti{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cerchio{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 5px;
+}
