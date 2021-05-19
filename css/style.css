@@ -32,6 +32,15 @@
 
 .header-content img{
     width: 250px;
+    padding-top: 40px;
+}
+
+.header-content h1{
+    padding-top: 12px;
+}
+
+.header-content p{
+    padding-top: 12px;
 }
 
 /* PICTURES */
@@ -40,7 +49,6 @@
     height: 260px;
     border-radius: 10px;
     margin-bottom: 24px;
-
 }
 
 .title{
@@ -57,28 +65,38 @@
 
 /* ABOUT TERZO CONTENITORE */
 
-.terzo-container{
+.terzo{
     background-color: rgb(26, 188, 156);
     color: white;
 }
 
-.terzo-container h2{
+.terzo h2{
     text-align: center;
+    padding-top: 24px;
 }
 
-.terzo-container .icona{
-    text-align: center;
+.terzo .icona{
+    text-align: center;  
+    padding-top: 12px;
+}
+
+.terzo .testo{
+    margin-bottom: 24px;
+}
+
+.terzo button{
+    margin-top: 24px;
 }
 
 /* QUARTO CONTAINER */
 
-.quarto-container h2{
+.quarto h2{
     margin-top: 30px;
     text-align: center;
 }
 
-.quarto-container .icona{
-    margin-top: 24px;
+.quarto .icona{
+    margin-top: 12px;
     text-align: center;
 }
 
@@ -90,6 +108,7 @@
     border: 0;
     border-bottom: 1px solid grey;
     width: 100%;
+    padding-bottom: 12px;
 }
 
 .contatti ::placeholder{
@@ -109,19 +128,23 @@
     color: white;
     text-align: center;
     padding-top: 24px;
-    padding-bottom: 24px;
     margin-top: 40px;
+}
+
+.container-quinto .testi{
+    padding-bottom: 24px;
 }
 
 .special{
     color: springgreen;
 }
 
-
 .icone-siti i{
     padding: 10px;
     font-size: 25px;
 }
+
+/* ULTIMO CONTAINER */
 
 .container-sesto{
     background-color: rgb(44, 62, 80);
