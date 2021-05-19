@@ -1,74 +1,142 @@
-.container-fluid{
-    color: orange;
-}
 
-.nav-bar{
-    /* altezza indicativa */
-    height: 100px;
+/* NAVBAR */
+
+.bg-color{
     background-color: rgb(44, 62, 80);
+}
+
+.navbar .navbar-brand{
+    font-weight: bold;
+}
+
+.navbar .navbar-collapse{
+    flex-grow: 0;
+}
+
+.navbar-dark .navbar-toggler{
+    border: 1px solid white;
+    font-size: 10px;
+}
+
+/* HEADER */
+
+.header-container{
+    background-color: rgb(26, 188, 156);
+    padding: 50px 0;
+    color: white;
+}
+
+.header-content{
     text-align: center;
-    line-height: 100px;
 }
 
-.container-primo{
+.header-content img{
+    width: 250px;
+}
+
+/* PICTURES */
+
+.pictures{
+    height: 260px;
+    border-radius: 10px;
+    margin-bottom: 24px;
+
+}
+
+.title{
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.icona{
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+/* ABOUT TERZO CONTENITORE */
+
+.terzo-container{
     background-color: rgb(26, 188, 156);
+    color: white;
+}
+
+.terzo-container h2{
+    text-align: center;
+}
+
+.terzo-container .icona{
+    text-align: center;
+}
+
+/* QUARTO CONTAINER */
+
+.quarto-container h2{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.quarto-container .icona{
+    margin-top: 24px;
+    text-align: center;
+}
+
+.contatti{
+    padding-top: 24px;
+}
+
+.contatti input{
+    border: 0;
+    border-bottom: 1px solid grey;
     width: 100%;
 }
 
-.container-secondo{
-    border: 1px solid black;
+.contatti ::placeholder{
+    color: black;
+}
+
+.contatti textarea{
+    border: 0;
+    border-bottom: 1px solid grey;
     width: 100%;
 }
 
-.container-terzo{
-    background-color: rgb(26, 188, 156);
-    width: 100%;
-}
+/* QUINTO CONTAINER */
 
-.container-quarto{
-    border: 1px solid black;
-    width: 100%;
-}
-
-.container-quinto{
+.quinto{
     background-color:rgb(58, 84, 109);
-    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-top: 40px;
+}
+
+.special{
+    color: springgreen;
+}
+
+
+.icone-siti i{
+    padding: 10px;
+    font-size: 25px;
 }
 
 .container-sesto{
     background-color: rgb(44, 62, 80);
     width: 100%;
-}
-
-[class*=col]{
-    border: 1px solid black;
-    text-align: center;
-    /* altezza indicativa */
-    height: 300px;
+    height: 60px;
+    color: white;
     display: flex;
-    justify-content: center;
     align-items: center;
-}
-
-/* riquadro prova */
-
-.immagine{
-    background-color: red;
-    width: 200px;
-    height: 200px;
-    line-height: 200px;
-}
-
-.icone-siti{
-    display: flex;
     justify-content: center;
-    align-items: center;
 }
 
-.cerchio{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: red;
-    margin: 5px;
-}
+
+
+
+
+
+
+
